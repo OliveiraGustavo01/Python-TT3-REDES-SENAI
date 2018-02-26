@@ -47,7 +47,7 @@ read -p " informe seu cpf: " cpf
 }
 DATA() {
 read -p "informe sua data de nascimento: " data
-echo $data | grep -E '^[0-3]{1}[0-9]{1}[/][0-1]{1}[0-9]{1}[/][0-9]{4}$'
+echo $data | grep -E '^[0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5](\.[0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5]){3}]$'
 	if [ $? == 0 ]; then
 		echo " data valida "
 		echo " DATA: $data " >> /home/vagrant/dados/data.txt
