@@ -3,7 +3,7 @@
 import os, getpass, re
 
 os.system("clear")
-print ("Ola,este sera seu cadastramento!")
+print ("Ola,este sera seu cadastro!")
 
 def nome():
     Nome = raw_input("Informe o seu nome: ")
