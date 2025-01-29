@@ -1,7 +1,9 @@
 # User Registration Script (Python)
 
 ## Description
-A Python script for user registration that validates inputs such as name, email, phone number, RG, CPF, date of birth, IP address, and subnet mask using regular expressions.
+This script is designed for user registration in a network setting. It prompts the user to input several pieces of information, such as their name, email, phone number, RG (Brazilian identity document), CPF (Brazilian tax ID), birthdate, IP address, and network mask. Each input is validated with regular expressions (regex) to ensure the data entered matches the expected format. If any input is invalid, the user is prompted to try again until the correct format is provided.
+
+This script was created as part of a Networking course in 2017.
 
 ## Features
 - Validates name, email, phone number, RG, CPF, birthdate, IP, and subnet mask.
